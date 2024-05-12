@@ -1,50 +1,75 @@
 /* Reset styles */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  /* Set the base font and colors */
-  body {
-    background-color: #0a192f;
-    color: #ccd6f6;
-    font-family: 'Inter', sans-serif;
-    line-height: 1.5;
-  }
-  
-  a {
-    color: #64ffda;
-    text-decoration: none;
-  }
-  
-  a:hover {
-    text-decoration: underline;
-  }
-  
-  h1, h2, h3 {
-    font-family: OCR A Std, monospace;
-    color: #ccd6f6;
-  }
-  
-  header, section {
-    padding: 2em;
-  }
-  
-  .social-links a {
-    margin-right: 0.5em;
-    color: #64ffda;
-  }
-  
-  .tags .tag {
-    background-color: #233554;
-    color: #64ffda;
-    padding: 0.3em;
-    margin-right: 0.3em;
-  }
-  
-  .experience, .project {
-    border-bottom: 1px solid #233554;
-    padding: 1em 0;
-  }
-  
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Set the base font and colors */
+body {
+  background-color: #0a192f;
+  color: #ccd6f6;
+  font-family: "Inter", sans-serif;
+  line-height: 1.5;
+  background: radial-gradient(
+    circle,
+    rgba(10, 25, 47, 1) 0%,
+    rgba(10, 25, 47, 1) 35%,
+    rgba(9, 16, 29, 1) 100%
+  );
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  color: #64ffda;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+h1,
+h2,
+h3 {
+  font-family: OCR A Std, monospace;
+  color: #ccd6f6;
+}
+
+header,
+section {
+  padding: 2em;
+}
+
+.social-links a {
+  margin-right: 0.5em;
+  color: #64ffda;
+}
+
+.tags .tag {
+  background-color: #233554;
+  color: #64ffda;
+  padding: 0.3em;
+  margin-right: 0.3em;
+}
+
+.experience,
+.project {
+  border-bottom: 1px solid #233554;
+  padding: 1em 0;
+}
+
+.project {
+  padding: 20px;
+  margin: 20px;
+  border-radius: 8px;
+  background-color: transparent; /* Optional: depends on design preference */
+  transition: background-color 0.3s ease-in-out;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Adds subtle shadow for depth */
+}
+
+.project:hover {
+  background-color: rgba(255, 255, 255, 0.1); /* Lighten background on hover */
+}

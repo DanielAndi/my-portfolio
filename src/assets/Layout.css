@@ -9,7 +9,7 @@
   background-color: #000000;
   font-family: OCR A Std, monospace;
   padding: 20px;
-  width: 300px;
+  width: 20%;
   position: fixed;
   height: 100vh;
   overflow-y: auto;
@@ -18,13 +18,15 @@
 .main-content {
   font-family: OCR A Std, monospace;
   flex-grow: 1;
-  padding-left: 30%;
+  padding: 0%;
+  margin-left: 20%;
 }
 
 
 @media (max-width: 768px) {
   .container {
     flex-direction: column;
+    margin-left: 5px;  
   }
 
   .sidebar {
