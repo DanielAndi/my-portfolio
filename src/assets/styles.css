@@ -1,0 +1,49 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Set the base font and colors */
+  body {
+    background-color: #0a192f;
+    color: #ccd6f6;
+    font-family: 'Inter', sans-serif;
+    line-height: 1.5;
+  }
+  
+  a {
+    color: #64ffda;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  h1, h2, h3 {
+    color: #ccd6f6;
+  }
+  
+  header, section {
+    padding: 2em;
+  }
+  
+  .social-links a {
+    margin-right: 0.5em;
+    color: #64ffda;
+  }
+  
+  .tags .tag {
+    background-color: #233554;
+    color: #64ffda;
+    padding: 0.3em;
+    margin-right: 0.3em;
+  }
+  
+  .experience, .project {
+    border-bottom: 1px solid #233554;
+    padding: 1em 0;
+  }
+  

@@ -1,0 +1,41 @@
+/* src/styles/Layout.css */
+.container {
+  display: flex;
+  flex-direction: row;
+  min-height: 100vh;
+}
+
+.sidebar {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 20px;
+  width: 300px;
+  position: fixed;
+  height: 100vh;
+  overflow-y: auto;
+}
+
+.main-content {
+  flex-grow: 1;
+  padding-left: 25%;
+}
+
+h3 {
+  color:whitesmoke
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    position: relative;
+    width: 100%;
+    height: auto;
+  }
+
+  .main-content {
+    margin-left: 0;
+  }
+}

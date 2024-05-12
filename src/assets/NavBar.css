@@ -1,0 +1,20 @@
+/* NavBar.css */
+nav ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  nav ul li {
+    margin: 0.5em 0;
+  }
+  
+  nav ul li a {
+    color: #64ffda;
+    text-decoration: none;
+  }
+  
+  nav ul li a.active {
+    font-weight: bold; /* Highlights the active section */
+    text-decoration: underline;
+  }
+  
