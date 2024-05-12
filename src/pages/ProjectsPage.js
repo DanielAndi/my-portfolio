@@ -11,7 +11,7 @@ const ProjectsPage = () => {
           <h3>{project.title}</h3>
           <p>{project.year}</p>
           <p>{project.description}</p>
-          <a href={project.link} target="_blank">Learn More</a>
+          <a href={project.link} target="_blank" without rel="noreferrer">Learn More</a>
         </div>
       ))}
     </section>

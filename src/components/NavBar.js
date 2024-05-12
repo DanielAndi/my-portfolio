@@ -1,5 +1,5 @@
 // src/components/NavBar.js
-import { Link as ScrollLink, Element } from 'react-scroll';
+import { Link as ScrollLink} from 'react-scroll';
 
 import '../assts/NavBar.css';
 
