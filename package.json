@@ -2,7 +2,7 @@
   "name": "your-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://DanielAndi.github.io/my-portfolio",
+  "homepage": "http://DanielAndi.github.io/my-portfolio",
   "type": "module",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
