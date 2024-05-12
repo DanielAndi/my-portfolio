@@ -7,12 +7,9 @@ body {
   padding: 0;
 }
 
-h1, h2, h3 {
-  color: #64ffda; /* Accent color */
-}
 
 a {
-  color: #64ffda; /* Accent color */
+  color: #3c8b79; /* Accent color */
   text-decoration: none;
 }
 

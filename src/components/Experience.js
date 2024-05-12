@@ -16,6 +16,7 @@ const Experience = () => {
   return (
     <section id="experience">
       <h2>Experience</h2>
+      <a href="/resume.pdf" target="_blank">View Resume (PDF)</a>
       {experiences.map((job, index) => (
         <div key={index} className="experience">
           <h3>{job.title} · {job.company}</h3>

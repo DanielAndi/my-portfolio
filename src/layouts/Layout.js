@@ -10,7 +10,7 @@ const Layout = ({ children }) => {
         <p>Efficiency and simplicty are the main concepts that should be taken into account when designing.</p>
         {/* You can add more links or information here */}
         <div className="links">
-          <a href="https://github.com" target="_blank" rel="noopener noreferrer">GitHub</a>
+          <a href="https://github.com" target="_blank" rel="noopener noreferrer">GitHub </a>
           <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">LinkedIn</a>
           {/* More social links can be added here */}
         </div>

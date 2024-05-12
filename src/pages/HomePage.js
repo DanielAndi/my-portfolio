@@ -5,7 +5,6 @@ import Footer from '../components/Footer.js';
 import About from '../components/About.js';
 import Experience from '../components/Experience.js';
 import Projects from '../components/Projects.js'; // If you have a Projects component
-import ResumePage from './ResumePage.js';
 
 const HomePage = () => {
   return (
@@ -15,7 +14,6 @@ const HomePage = () => {
       <Experience />
       <Projects />
       <Footer />
-      <ResumePage />
     </div>
   );
 }
