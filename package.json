@@ -1,8 +1,8 @@
 {
-  "homepage": "https://danielandi.github.io/my-portfolio/",
-  "name": "my-portfolio",
+  "name": "your-app",
   "version": "0.1.0",
-  "private": false,
+  "private": true,
+  "homepage": "https://DanielAndi.github.io/my-portfolio",
   "type": "module",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
